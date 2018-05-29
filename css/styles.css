@@ -19,6 +19,21 @@
   background-color: #6d6d6d;
 }
 
+.default-background {
+  color: inherit;
+  background-color: inherit;
+}
+
+.highlight {
+  border: 3px solid grey;
+  background-color: red;
+}
+
+/*.removeHighlight {
+border: none;
+background-color: inherit;
+}*/
+
 .container {
   text-align: center;
 }
