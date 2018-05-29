@@ -1,16 +1,16 @@
 $(document).ready(function() {
   $(".click-show").click(function() {
-    $(".show").fadeIn();
-    $(".hidden").fadeOut();
+    $(".show").slideToggle();
+    $(".hidden").slideToggle();
   });
 
   $(".click-hide").click(function() {
-    $(".show").fadeOut();
-    $(".hidden").fadeIn();
+    $(".show").slideToggle();
+    $(".hidden").slideToggle();
   });
 
-  $(".removeHighlight").click(function() {
-    $(".removeHighlight").addClass("highlight");
+  $(".paragraph").click(function() {
+    $(".paragraph").toggleClass("highlight");
   });
 
   $("button#default").click(function() {
