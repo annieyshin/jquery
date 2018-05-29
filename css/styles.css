@@ -1,5 +1,10 @@
 .show {
-
   display: none;
+}
 
+.click-show,
+.click-hide {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
 }
