@@ -3,18 +3,19 @@ $(document).ready(function() {
     $(".show").fadeIn();
     $(".hidden").fadeOut();
   });
-});
 
-$(document).ready(function() {
   $(".click-hide").click(function() {
     $(".show").fadeOut();
     $(".hidden").fadeIn();
   });
-});
-
-$(document).ready(function() {
 
   $("button#day").click(function() {
+    $("body").removeClass();
     $("body").addClass("day-background");
+  });
+
+  $("button#night").click(function() {
+    $("body").removeClass();
+    $("body").addClass("night-background")
   });
 });

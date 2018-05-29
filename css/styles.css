@@ -10,7 +10,15 @@
 }
 
 .day-background {
-
   color: blue;
   background-color: yellow;
+}
+
+.night-background {
+  color: white;
+  background-color: #6d6d6d;
+}
+
+.container {
+  text-align: center;
 }
