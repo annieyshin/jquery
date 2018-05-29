@@ -8,3 +8,9 @@
   color: blue;
   text-decoration: underline;
 }
+
+.day-background {
+
+  color: blue;
+  background-color: yellow;
+}

@@ -11,3 +11,10 @@ $(document).ready(function() {
     $(".hidden").fadeIn();
   });
 });
+
+$(document).ready(function() {
+
+  $("button#day").click(function() {
+    $("body").addClass("day-background");
+  });
+});
